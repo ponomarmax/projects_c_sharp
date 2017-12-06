@@ -1,0 +1,9 @@
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\bin\Debug\Lab5_Client.exe
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\bin\Debug\Lab5_Client.pdb
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\obj\Debug\Lab5_Client.csprojResolveAssemblyReference.cache
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\obj\Debug\Lab5_Client.Form1.resources
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\obj\Debug\Lab5_Client.Properties.Resources.resources
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\obj\Debug\Lab5_Client.csproj.GenerateResource.Cache
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\obj\Debug\Lab5_Client.exe
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\obj\Debug\Lab5_Client.pdb
+E:\3_1\ІПЗ\Lab5_Client\Lab5_Client\bin\Debug\Lab5_Client.exe.config

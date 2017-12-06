@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c80fe5c6-278d-4634-a3b9-7ad493d12f2d" name="Max_name_user@MAX 2017-11-21 08:40:31" runUser="Max\Max_name_user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2017-11-21T08:40:31.7675684+02:00" queuing="2017-11-21T08:40:31.7675684+02:00" start="2017-11-21T08:40:31.2247469+02:00" finish="2017-11-21T08:40:31.8816441+02:00" />
+  <TestSettings name="default" id="aeab4249-f3b6-46a3-872d-9d2862d74f6f">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Max_name_user_MAX 2017-11-21 08_40_31" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="dd82551b-0eb0-4a8a-8f98-0ada21369c08" testId="b1ea82cb-6500-45bc-e1d4-2774e31e0297" testName="Create_tree_with_first_null_arg_Error" computerName="MAX" duration="00:00:00.0320101" startTime="2017-11-21T08:40:31.2247469+02:00" endTime="2017-11-21T08:40:31.5770125+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd82551b-0eb0-4a8a-8f98-0ada21369c08" />
+    <UnitTestResult executionId="adfb7223-171e-4323-a3bd-622ebb007473" testId="6cc5f864-0874-7ef7-afb1-6a89b2ad8c3b" testName="Create_tree_with_second_null_arg_Error" computerName="MAX" duration="00:00:00.0009489" startTime="2017-11-21T08:40:31.5900212+02:00" endTime="2017-11-21T08:40:31.5920229+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adfb7223-171e-4323-a3bd-622ebb007473" />
+    <UnitTestResult executionId="143e3373-32bf-4796-8c80-1230365debd9" testId="ec3657f5-3480-4640-906c-f2e7d893c63f" testName="take_value_with_non_existing_index_Error" computerName="MAX" duration="00:00:00.0016575" startTime="2017-11-21T08:40:31.5920229+02:00" endTime="2017-11-21T08:40:31.5940238+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="143e3373-32bf-4796-8c80-1230365debd9" />
+    <UnitTestResult executionId="3e44e872-fd0c-4cf0-9b49-b2a76dc2519f" testId="594a4e98-a7d0-6ed6-2271-88a79f791ba2" testName="Add_elem_with_error_index_Error" computerName="MAX" duration="00:00:00.0025277" startTime="2017-11-21T08:40:31.5940238+02:00" endTime="2017-11-21T08:40:31.5970258+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e44e872-fd0c-4cf0-9b49-b2a76dc2519f" />
+    <UnitTestResult executionId="f05b3a5f-1f33-4677-9c84-b552c3c4458e" testId="677cc7bc-c77c-ab41-8558-26fbf85e30d9" testName="Delete_elem_with_non_existing_index_Error" computerName="MAX" duration="00:00:00.0017558" startTime="2017-11-21T08:40:31.5970258+02:00" endTime="2017-11-21T08:40:31.5990271+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f05b3a5f-1f33-4677-9c84-b552c3c4458e" />
+    <UnitTestResult executionId="238b9892-2c26-4515-aa02-719750304910" testId="6e558a0d-822e-2d8f-9d9c-7c3139cb7a94" testName="Create_empty_tree" computerName="MAX" duration="00:00:00.0020231" startTime="2017-11-21T08:40:31.5990271+02:00" endTime="2017-11-21T08:40:31.6010285+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="238b9892-2c26-4515-aa02-719750304910" />
+    <UnitTestResult executionId="e86c2ee4-e294-4ee4-a056-e4ca4d231fce" testId="764bf849-4a2c-0d04-b463-8a28a2780bd4" testName="Add_elem_Success" computerName="MAX" duration="00:00:00.0017973" startTime="2017-11-21T08:40:31.6010285+02:00" endTime="2017-11-21T08:40:31.6030298+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e86c2ee4-e294-4ee4-a056-e4ca4d231fce" />
+    <UnitTestResult executionId="52bb7160-965a-465c-ac91-e3b060b1850f" testId="5106eee3-35d5-87f5-1e36-cb0890d42e79" testName="Set_elem_at_end_Success" computerName="MAX" duration="00:00:00.0019521" startTime="2017-11-21T08:40:31.6030298+02:00" endTime="2017-11-21T08:40:31.6060339+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52bb7160-965a-465c-ac91-e3b060b1850f" />
+    <UnitTestResult executionId="0a1c15d3-3169-46a3-b8e1-00acc76067e6" testId="1fa2eb4c-33a7-262d-f97d-cba1dad657e9" testName="Set_elem_at_begin_Success" computerName="MAX" duration="00:00:00.0009660" startTime="2017-11-21T08:40:31.6060339+02:00" endTime="2017-11-21T08:40:31.6070325+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a1c15d3-3169-46a3-b8e1-00acc76067e6" />
+    <UnitTestResult executionId="7af83870-a99d-4406-ab09-d4a6d85fdc91" testId="1f4434c2-a859-52eb-e48e-bf6e1d0fa999" testName="Set_elem_at_with_error_index_Error" computerName="MAX" duration="00:00:00.0011871" startTime="2017-11-21T08:40:31.6150378+02:00" endTime="2017-11-21T08:40:31.6160389+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7af83870-a99d-4406-ab09-d4a6d85fdc91" />
+    <UnitTestResult executionId="0d1a646c-0ce1-4775-9a5d-7690dc1fe4fe" testId="2f410aca-2dcd-d4dd-5a7b-5e01e8db18ab" testName="Search_sum_on_range_Success" computerName="MAX" duration="00:00:00.0027667" startTime="2017-11-21T08:40:31.6170395+02:00" endTime="2017-11-21T08:40:31.6200411+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d1a646c-0ce1-4775-9a5d-7690dc1fe4fe" />
+    <UnitTestResult executionId="6379edb6-2bfc-4a07-abe9-3c0dc5938a2a" testId="3c679210-26b0-75b2-3cc9-f4fcfa235a48" testName="Search_min_on_range_Success" computerName="MAX" duration="00:00:00.0016694" startTime="2017-11-21T08:40:31.6200411+02:00" endTime="2017-11-21T08:40:31.6220424+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6379edb6-2bfc-4a07-abe9-3c0dc5938a2a" />
+    <UnitTestResult executionId="3cb58b6b-6668-43d1-81be-b5793743c748" testId="a3718bcb-6a0d-24ba-1542-46b813a705b9" testName="Search_max_on_range_Success" computerName="MAX" duration="00:00:00.0829306" startTime="2017-11-21T08:40:31.6220424+02:00" endTime="2017-11-21T08:40:31.7045266+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cb58b6b-6668-43d1-81be-b5793743c748" />
+    <UnitTestResult executionId="fde9e27b-c19c-4ee5-bbf4-007993a45882" testId="d8b8fb80-3dbf-68ae-7acf-4e2e5ab8f625" testName="Search_sum_on_range_less_zero_Success" computerName="MAX" duration="00:00:00.0014582" startTime="2017-11-21T08:40:31.7055273+02:00" endTime="2017-11-21T08:40:31.7075286+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fde9e27b-c19c-4ee5-bbf4-007993a45882" />
+    <UnitTestResult executionId="0e3f5eee-ed9e-4673-904f-57cc08cc11f5" testId="0cfb42d4-a884-113e-d1f5-dc5a3382fd3c" testName="Search_sum_on_wrong_range__Error" computerName="MAX" duration="00:00:00.0020419" startTime="2017-11-21T08:40:31.7075286+02:00" endTime="2017-11-21T08:40:31.7095299+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e3f5eee-ed9e-4673-904f-57cc08cc11f5" />
+    <UnitTestResult executionId="ffa57c26-5145-480d-b585-c722e3f70731" testId="d15b303d-74d9-6181-a336-fa33b27af5f1" testName="Search_min_on_less_zero_range_Success" computerName="MAX" duration="00:00:00.0018730" startTime="2017-11-21T08:40:31.7095299+02:00" endTime="2017-11-21T08:40:31.7125328+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffa57c26-5145-480d-b585-c722e3f70731" />
+    <UnitTestResult executionId="72907e6f-3b91-4423-af68-9c02051393dc" testId="6d83281c-b543-2643-79ab-cbb63330a3fc" testName="Search_max_on_less_zero_range_Success" computerName="MAX" duration="00:00:00.0024375" startTime="2017-11-21T08:40:31.7135334+02:00" endTime="2017-11-21T08:40:31.7165346+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72907e6f-3b91-4423-af68-9c02051393dc" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Create_tree_with_first_null_arg_Error" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="b1ea82cb-6500-45bc-e1d4-2774e31e0297">
+      <Execution id="dd82551b-0eb0-4a8a-8f98-0ada21369c08" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Create_tree_with_first_null_arg_Error" />
+    </UnitTest>
+    <UnitTest name="Create_tree_with_second_null_arg_Error" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="6cc5f864-0874-7ef7-afb1-6a89b2ad8c3b">
+      <Execution id="adfb7223-171e-4323-a3bd-622ebb007473" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Create_tree_with_second_null_arg_Error" />
+    </UnitTest>
+    <UnitTest name="take_value_with_non_existing_index_Error" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="ec3657f5-3480-4640-906c-f2e7d893c63f">
+      <Execution id="143e3373-32bf-4796-8c80-1230365debd9" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="take_value_with_non_existing_index_Error" />
+    </UnitTest>
+    <UnitTest name="Add_elem_with_error_index_Error" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="594a4e98-a7d0-6ed6-2271-88a79f791ba2">
+      <Execution id="3e44e872-fd0c-4cf0-9b49-b2a76dc2519f" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Add_elem_with_error_index_Error" />
+    </UnitTest>
+    <UnitTest name="Delete_elem_with_non_existing_index_Error" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="677cc7bc-c77c-ab41-8558-26fbf85e30d9">
+      <Execution id="f05b3a5f-1f33-4677-9c84-b552c3c4458e" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Delete_elem_with_non_existing_index_Error" />
+    </UnitTest>
+    <UnitTest name="Create_empty_tree" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="6e558a0d-822e-2d8f-9d9c-7c3139cb7a94">
+      <Execution id="238b9892-2c26-4515-aa02-719750304910" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Create_empty_tree" />
+    </UnitTest>
+    <UnitTest name="Add_elem_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="764bf849-4a2c-0d04-b463-8a28a2780bd4">
+      <Execution id="e86c2ee4-e294-4ee4-a056-e4ca4d231fce" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Add_elem_Success" />
+    </UnitTest>
+    <UnitTest name="Set_elem_at_end_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="5106eee3-35d5-87f5-1e36-cb0890d42e79">
+      <Execution id="52bb7160-965a-465c-ac91-e3b060b1850f" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Set_elem_at_end_Success" />
+    </UnitTest>
+    <UnitTest name="Set_elem_at_begin_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="1fa2eb4c-33a7-262d-f97d-cba1dad657e9">
+      <Execution id="0a1c15d3-3169-46a3-b8e1-00acc76067e6" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Set_elem_at_begin_Success" />
+    </UnitTest>
+    <UnitTest name="Set_elem_at_with_error_index_Error" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="1f4434c2-a859-52eb-e48e-bf6e1d0fa999">
+      <Execution id="7af83870-a99d-4406-ab09-d4a6d85fdc91" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Set_elem_at_with_error_index_Error" />
+    </UnitTest>
+    <UnitTest name="Search_sum_on_range_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="2f410aca-2dcd-d4dd-5a7b-5e01e8db18ab">
+      <Execution id="0d1a646c-0ce1-4775-9a5d-7690dc1fe4fe" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Search_sum_on_range_Success" />
+    </UnitTest>
+    <UnitTest name="Search_min_on_range_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="3c679210-26b0-75b2-3cc9-f4fcfa235a48">
+      <Execution id="6379edb6-2bfc-4a07-abe9-3c0dc5938a2a" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Search_min_on_range_Success" />
+    </UnitTest>
+    <UnitTest name="Search_max_on_range_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="a3718bcb-6a0d-24ba-1542-46b813a705b9">
+      <Execution id="3cb58b6b-6668-43d1-81be-b5793743c748" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Search_max_on_range_Success" />
+    </UnitTest>
+    <UnitTest name="Search_sum_on_range_less_zero_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="d8b8fb80-3dbf-68ae-7acf-4e2e5ab8f625">
+      <Execution id="fde9e27b-c19c-4ee5-bbf4-007993a45882" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Search_sum_on_range_less_zero_Success" />
+    </UnitTest>
+    <UnitTest name="Search_sum_on_wrong_range__Error" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="0cfb42d4-a884-113e-d1f5-dc5a3382fd3c">
+      <Execution id="0e3f5eee-ed9e-4673-904f-57cc08cc11f5" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Search_sum_on_wrong_range__Error" />
+    </UnitTest>
+    <UnitTest name="Search_min_on_less_zero_range_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="d15b303d-74d9-6181-a336-fa33b27af5f1">
+      <Execution id="ffa57c26-5145-480d-b585-c722e3f70731" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Search_min_on_less_zero_range_Success" />
+    </UnitTest>
+    <UnitTest name="Search_max_on_less_zero_range_Success" storage="e:\3_1\ipz\33\kursova\test_to_kursova\bin\debug\test_to_kursova.dll" id="6d83281c-b543-2643-79ab-cbb63330a3fc">
+      <Execution id="72907e6f-3b91-4423-af68-9c02051393dc" />
+      <TestMethod codeBase="E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Test_to_kursova.SegmentTree" name="Search_max_on_less_zero_range_Success" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b1ea82cb-6500-45bc-e1d4-2774e31e0297" executionId="dd82551b-0eb0-4a8a-8f98-0ada21369c08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cc5f864-0874-7ef7-afb1-6a89b2ad8c3b" executionId="adfb7223-171e-4323-a3bd-622ebb007473" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec3657f5-3480-4640-906c-f2e7d893c63f" executionId="143e3373-32bf-4796-8c80-1230365debd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="594a4e98-a7d0-6ed6-2271-88a79f791ba2" executionId="3e44e872-fd0c-4cf0-9b49-b2a76dc2519f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="677cc7bc-c77c-ab41-8558-26fbf85e30d9" executionId="f05b3a5f-1f33-4677-9c84-b552c3c4458e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e558a0d-822e-2d8f-9d9c-7c3139cb7a94" executionId="238b9892-2c26-4515-aa02-719750304910" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="764bf849-4a2c-0d04-b463-8a28a2780bd4" executionId="e86c2ee4-e294-4ee4-a056-e4ca4d231fce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5106eee3-35d5-87f5-1e36-cb0890d42e79" executionId="52bb7160-965a-465c-ac91-e3b060b1850f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fa2eb4c-33a7-262d-f97d-cba1dad657e9" executionId="0a1c15d3-3169-46a3-b8e1-00acc76067e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f4434c2-a859-52eb-e48e-bf6e1d0fa999" executionId="7af83870-a99d-4406-ab09-d4a6d85fdc91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f410aca-2dcd-d4dd-5a7b-5e01e8db18ab" executionId="0d1a646c-0ce1-4775-9a5d-7690dc1fe4fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c679210-26b0-75b2-3cc9-f4fcfa235a48" executionId="6379edb6-2bfc-4a07-abe9-3c0dc5938a2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3718bcb-6a0d-24ba-1542-46b813a705b9" executionId="3cb58b6b-6668-43d1-81be-b5793743c748" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8b8fb80-3dbf-68ae-7acf-4e2e5ab8f625" executionId="fde9e27b-c19c-4ee5-bbf4-007993a45882" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cfb42d4-a884-113e-d1f5-dc5a3382fd3c" executionId="0e3f5eee-ed9e-4673-904f-57cc08cc11f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d15b303d-74d9-6181-a336-fa33b27af5f1" executionId="ffa57c26-5145-480d-b585-c722e3f70731" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d83281c-b543-2643-79ab-cbb63330a3fc" executionId="72907e6f-3b91-4423-af68-9c02051393dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

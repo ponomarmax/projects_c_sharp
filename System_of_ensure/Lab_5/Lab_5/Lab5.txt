@@ -1,0 +1,6 @@
+--------------New request 08.11.2017 17:12:32--------------
+Parameters: insuranceSum is 2000; Result: complited succesfull
+
+--------------New request 08.11.2017 17:12:32--------------
+Parameters: insuranceSum is 2000; riskGrup is P2; startDate is 08.11.2017; endDate is 20.04.2018; Result: complited succesfull
+

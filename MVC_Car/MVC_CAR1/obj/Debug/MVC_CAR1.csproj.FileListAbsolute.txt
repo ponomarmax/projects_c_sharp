@@ -1,0 +1,8 @@
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\bin\Debug\MVC_CAR1.exe
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\bin\Debug\MVC_CAR1.pdb
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\obj\Debug\MVC_CAR1.csprojResolveAssemblyReference.cache
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\obj\Debug\MVC_CAR1.Properties.Resources.resources
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\obj\Debug\lab4_mvc.View_form.resources
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\obj\Debug\MVC_CAR1.csproj.GenerateResource.Cache
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\obj\Debug\MVC_CAR1.exe
+E:\work_project_git_c#\MVC_Car\MVC_CAR1\obj\Debug\MVC_CAR1.pdb

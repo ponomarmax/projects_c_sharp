@@ -1,0 +1,13 @@
+D:\USERS\Rodion\Рабочий стол\Лекции\5-й семестр\Інженерія програмного забезпечення\Labs\Lab_5\Lab_5\bin\Lab_5.dll.config
+D:\USERS\Rodion\Рабочий стол\Лекции\5-й семестр\Інженерія програмного забезпечення\Labs\Lab_5\Lab_5\bin\Lab_5.dll
+D:\USERS\Rodion\Рабочий стол\Лекции\5-й семестр\Інженерія програмного забезпечення\Labs\Lab_5\Lab_5\bin\Lab_5.pdb
+D:\USERS\Rodion\Рабочий стол\Лекции\5-й семестр\Інженерія програмного забезпечення\Labs\Lab_5\Lab_5\obj\Debug\Lab_5.csprojResolveAssemblyReference.cache
+D:\USERS\Rodion\Рабочий стол\Лекции\5-й семестр\Інженерія програмного забезпечення\Labs\Lab_5\Lab_5\obj\Debug\Lab_5.csproj.CoreCompileInputs.cache
+D:\USERS\Rodion\Рабочий стол\Лекции\5-й семестр\Інженерія програмного забезпечення\Labs\Lab_5\Lab_5\obj\Debug\Lab_5.dll
+D:\USERS\Rodion\Рабочий стол\Лекции\5-й семестр\Інженерія програмного забезпечення\Labs\Lab_5\Lab_5\obj\Debug\Lab_5.pdb
+E:\Download\Lab_5\Lab_5\Lab_5\bin\Lab_5.dll.config
+E:\Download\Lab_5\Lab_5\Lab_5\bin\Lab_5.dll
+E:\Download\Lab_5\Lab_5\Lab_5\bin\Lab_5.pdb
+E:\Download\Lab_5\Lab_5\Lab_5\obj\Debug\Lab_5.csprojResolveAssemblyReference.cache
+E:\Download\Lab_5\Lab_5\Lab_5\obj\Debug\Lab_5.dll
+E:\Download\Lab_5\Lab_5\Lab_5\obj\Debug\Lab_5.pdb

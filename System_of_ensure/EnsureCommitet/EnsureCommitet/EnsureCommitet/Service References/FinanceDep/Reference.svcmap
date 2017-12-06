@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d3820fda-2f5e-44d3-8c5c-d526c26d307d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.2.31/FinanceDep.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FinanceDep.xsd" MetadataType="Schema" ID="612eb92f-68d7-46d7-a8c6-b28169e4abe0" SourceId="1" SourceUrl="http://10.1.2.31/FinanceDep.svc?xsd=xsd2" />
+    <MetadataFile FileName="FinanceDep1.xsd" MetadataType="Schema" ID="28f6bbd8-10dd-4043-b2ca-f0457766fbb0" SourceId="1" SourceUrl="http://10.1.2.31/FinanceDep.svc?xsd=xsd1" />
+    <MetadataFile FileName="FinanceDep.wsdl" MetadataType="Wsdl" ID="327f4827-f106-410e-889b-e3e2ddfb9f66" SourceId="1" SourceUrl="http://10.1.2.31/FinanceDep.svc?wsdl" />
+    <MetadataFile FileName="FinanceDep2.xsd" MetadataType="Schema" ID="6373c656-c075-4288-aa04-24aba8783400" SourceId="1" SourceUrl="http://10.1.2.31/FinanceDep.svc?xsd=xsd0" />
+    <MetadataFile FileName="FinanceDep.disco" MetadataType="Disco" ID="f3e6b54c-fe39-491f-b086-779974e30f3c" SourceId="1" SourceUrl="http://10.1.2.31/FinanceDep.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

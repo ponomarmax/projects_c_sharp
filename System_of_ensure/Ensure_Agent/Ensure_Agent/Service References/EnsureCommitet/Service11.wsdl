@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.1.2.93/EnsureCommitet.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://10.1.2.93/EnsureCommitet.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEnsureCommitet_Request_InputMessage">
+    <wsdl:part name="parameters" element="tns:Request" />
+  </wsdl:message>
+  <wsdl:message name="IEnsureCommitet_Request_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnsureCommitet_Is_Crime_InputMessage">
+    <wsdl:part name="parameters" element="tns:Is_Crime" />
+  </wsdl:message>
+  <wsdl:message name="IEnsureCommitet_Is_Crime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Is_CrimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEnsureCommitet_Enought_Money_InputMessage">
+    <wsdl:part name="parameters" element="tns:Enought_Money" />
+  </wsdl:message>
+  <wsdl:message name="IEnsureCommitet_Enought_Money_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Enought_MoneyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IEnsureCommitet">
+    <wsdl:operation name="Request">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnsureCommitet/Request" message="tns:IEnsureCommitet_Request_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnsureCommitet/RequestResponse" message="tns:IEnsureCommitet_Request_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Is_Crime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnsureCommitet/Is_Crime" message="tns:IEnsureCommitet_Is_Crime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnsureCommitet/Is_CrimeResponse" message="tns:IEnsureCommitet_Is_Crime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Enought_Money">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEnsureCommitet/Enought_Money" message="tns:IEnsureCommitet_Enought_Money_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEnsureCommitet/Enought_MoneyResponse" message="tns:IEnsureCommitet_Enought_Money_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IEnsureCommitet" type="tns:IEnsureCommitet">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Request">
+      <soap:operation soapAction="http://tempuri.org/IEnsureCommitet/Request" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Is_Crime">
+      <soap:operation soapAction="http://tempuri.org/IEnsureCommitet/Is_Crime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Enought_Money">
+      <soap:operation soapAction="http://tempuri.org/IEnsureCommitet/Enought_Money" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IEnsureCommitet" binding="tns:BasicHttpBinding_IEnsureCommitet">
+      <soap:address location="http://10.1.2.93/EnsureCommitet.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

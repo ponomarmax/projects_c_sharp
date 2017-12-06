@@ -1,0 +1,9 @@
+﻿* 08.11.2017 17:12:29 ***
+Request was called with params: цу121212 2000 
+
+* 08.11.2017 17:12:29 ***
+Is_Not_Crime was called with params: цу121212 
+
+* 08.11.2017 17:12:32 ***
+Enought_Money was called with params: 2000 
+

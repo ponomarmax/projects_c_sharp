@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5cf77559-4911-4895-9ab7-5924e90c5210" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.2.93/EnsureCommitet.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EnsureCommitet2.xsd" MetadataType="Schema" ID="9cf40824-6078-4926-9b96-124c6df779dd" SourceId="1" SourceUrl="http://10.1.2.93/EnsureCommitet.svc?xsd=xsd1" />
+    <MetadataFile FileName="EnsureCommitet1.disco" MetadataType="Disco" ID="33afcd41-e3bb-405a-89a1-a6560c67a6b2" SourceId="1" SourceUrl="http://10.1.2.93/EnsureCommitet.svc?disco" />
+    <MetadataFile FileName="Service11.wsdl" MetadataType="Wsdl" ID="1bbd162a-f781-4140-9323-78b5a356a87f" SourceId="1" SourceUrl="http://10.1.2.93/EnsureCommitet.svc?wsdl" />
+    <MetadataFile FileName="EnsureCommitet21.xsd" MetadataType="Schema" ID="203c1a85-e2cc-47a3-9fdf-a4d4b16c7f54" SourceId="1" SourceUrl="http://10.1.2.93/EnsureCommitet.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

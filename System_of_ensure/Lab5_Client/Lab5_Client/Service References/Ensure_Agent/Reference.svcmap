@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bd97d570-b262-40f6-b9cc-5763d7f7e007" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.2.69/Ensure_Agent.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Ensure_Agent2.xsd" MetadataType="Schema" ID="6c4a6ae6-a6cb-4898-ab97-944750ecaf4c" SourceId="1" SourceUrl="http://10.1.2.69/Ensure_Agent.svc?xsd=xsd0" />
+    <MetadataFile FileName="Ensure_Agent21.xsd" MetadataType="Schema" ID="c2b91636-f287-4d1f-9427-774158bf7abf" SourceId="1" SourceUrl="http://10.1.2.69/Ensure_Agent.svc?xsd=xsd1" />
+    <MetadataFile FileName="Ensure_Agent1.disco" MetadataType="Disco" ID="a2331357-90fb-4da4-b2d1-3dc117fc0ddc" SourceId="1" SourceUrl="http://10.1.2.69/Ensure_Agent.svc?disco" />
+    <MetadataFile FileName="Service11.wsdl" MetadataType="Wsdl" ID="50259d6e-96b7-47ee-934a-e4dbb5ed2919" SourceId="1" SourceUrl="http://10.1.2.69/Ensure_Agent.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,16 @@
+E:\3_1\IPZ\33\kursova\Test_to_kursova\obj\Debug\Test_to_kursova.csprojResolveAssemblyReference.cache
+E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll
+E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.pdb
+E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\kursova.exe
+E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\3_1\IPZ\33\kursova\Test_to_kursova\bin\Debug\kursova.pdb
+E:\3_1\IPZ\33\kursova\Test_to_kursova\obj\Debug\Test_to_kursova.dll
+E:\3_1\IPZ\33\kursova\Test_to_kursova\obj\Debug\Test_to_kursova.pdb
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.dll
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\bin\Debug\Test_to_kursova.pdb
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\bin\Debug\kursova.exe
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\bin\Debug\kursova.pdb
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\obj\Debug\Test_to_kursova.csprojResolveAssemblyReference.cache
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\obj\Debug\Test_to_kursova.dll
+E:\3_1\IPZ\33\till_ref\kursova\Test_to_kursova\obj\Debug\Test_to_kursova.pdb

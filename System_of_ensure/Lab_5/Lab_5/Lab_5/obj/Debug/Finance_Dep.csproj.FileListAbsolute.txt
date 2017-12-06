@@ -1,0 +1,6 @@
+E:\work_project_git_c#\System_of_ensure\Lab_5\Lab_5\Lab_5\bin\Lab_5.dll.config
+E:\work_project_git_c#\System_of_ensure\Lab_5\Lab_5\Lab_5\bin\Lab_5.dll
+E:\work_project_git_c#\System_of_ensure\Lab_5\Lab_5\Lab_5\bin\Lab_5.pdb
+E:\work_project_git_c#\System_of_ensure\Lab_5\Lab_5\Lab_5\obj\Debug\Finance_Dep.csprojResolveAssemblyReference.cache
+E:\work_project_git_c#\System_of_ensure\Lab_5\Lab_5\Lab_5\obj\Debug\Lab_5.dll
+E:\work_project_git_c#\System_of_ensure\Lab_5\Lab_5\Lab_5\obj\Debug\Lab_5.pdb
