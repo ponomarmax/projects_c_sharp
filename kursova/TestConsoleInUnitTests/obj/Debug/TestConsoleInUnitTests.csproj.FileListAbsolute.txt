@@ -20,6 +20,3 @@ E:\3_1\IPZ\33\till_ref\kursova\TestConsoleInUnitTests\bin\Debug\kursova.exe
 E:\3_1\IPZ\33\till_ref\kursova\TestConsoleInUnitTests\bin\Debug\Test_to_kursova.pdb
 E:\3_1\IPZ\33\till_ref\kursova\TestConsoleInUnitTests\bin\Debug\kursova.pdb
 E:\3_1\IPZ\33\till_ref\kursova\TestConsoleInUnitTests\obj\Debug\TestConsoleInUnitTests.csprojResolveAssemblyReference.cache
-E:\work_project_git_c#\kursova\TestConsoleInUnitTests\bin\Debug\TestConsoleInUnitTests.exe.config
-E:\work_project_git_c#\kursova\TestConsoleInUnitTests\obj\Debug\TestConsoleInUnitTests.exe
-E:\work_project_git_c#\kursova\TestConsoleInUnitTests\obj\Debug\TestConsoleInUnitTests.pdb

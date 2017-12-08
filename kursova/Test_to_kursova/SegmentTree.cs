@@ -8,157 +8,184 @@ namespace Test_to_kursova
     public class SegmentTree
     {
 
-        Tree tree_for_addDel_elem, tree_check_property_COUNT, tree_check_adding_deleting, tree_for_check_sum_of_range;
-        int[] test_array;
+
         const int NON_EXISTING_INDEX_IN_TREE = -1;
         static int Sum(int a, int b) { return a + b; }
         static int Min(int a, int b) { return (a < b ? a : b); }
         static int Max(int a, int b) { return (a > b ? a : b); }
 
-        [TestInitialize]
-        public void Initialize()
-        {
-            tree_check_adding_deleting = new Tree(new int[] { }, (int a, int b) => { return a + b; });
-
-
-            tree_check_property_COUNT = new Tree(new int[] { 0 }, (int a, int b) => { return a + b; });
-
-            test_array = new int[] { 1, 2, 3 };
-            tree_for_addDel_elem = new Tree(test_array, (int a, int b) => { return a + b; });
-        }
-
-
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void Create_tree_with_first_null_arg_Error()
+        public void Constructor_CreateTreeWithNullArray_Exception()
         {
-            Tree tree = new Tree(null, (int a, int b) => { return a + b; });
+            //arrange
+            Tree tree;
+
+            //act
+            tree = new Tree(null, Sum);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void Create_tree_with_second_null_arg_Error()
+        public void Constructor_CreateTreeWithNullFunc_Exception()
         {
-            Tree tree = new Tree(new int[] { }, null);
+            //arrange
+            Tree tree;
+            //act
+            tree = new Tree(new int[] { }, null);
         }
 
 
         [TestMethod]
         [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void take_value_with_non_existing_index_Error()
+        public void Indexer_GetElemWithNonExitingIndex_Exception()
         {
-            int a = tree_for_addDel_elem[NON_EXISTING_INDEX_IN_TREE];
-        }
-
-        [TestMethod]
-        [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void Add_elem_with_error_index_Error()
-        {
-            tree_for_addDel_elem.Add(1, NON_EXISTING_INDEX_IN_TREE);
-        }
-
-        [TestMethod]
-        [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void Delete_elem_with_non_existing_index_Error()
-        {
-            tree_for_addDel_elem.Delete(NON_EXISTING_INDEX_IN_TREE);
-        }
-
-        [TestMethod]
-        public void Create_empty_tree_Success()
-        {
-            Tree tree = new Tree(new int[] { }, Sum);
-
-            Assert.AreEqual(tree.Count, 0);
-        }
-
-        [TestMethod]
-        public void Add_elem_at_end_Success()
-        {
+            //arrange
             Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
+            //act
+            int a = tree[NON_EXISTING_INDEX_IN_TREE];
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
+        public void Add_ByNonExitingIndex_Exception()
+        {
+            //arrange
+            Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
+            //act
+            tree.Add(1, NON_EXISTING_INDEX_IN_TREE);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
+        public void Delete_ByNonExitingIndex_Exception()
+        {
+            //arrange
+            Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
+            //act
+            tree.Delete(NON_EXISTING_INDEX_IN_TREE);
+        }
+
+        [TestMethod]
+        public void Add_ToEndOfNonEmptyTree_Success()
+        {
+            //arrange
+            Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
+
+            //act
             tree.Add(400);
+
+            //assert
             Assert.AreEqual(tree[5], 400);
         }
         [TestMethod]
-        public void Add_elem_at_begin_with_index_Success()
+        public void Add_ToBeginOfNonEmptyTree_Success()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
-            const int ADDED_ELEM = 400;
-            tree.Add(ADDED_ELEM, 0);
-            Assert.AreEqual(tree[0], ADDED_ELEM);
+
+            //act
+            tree.Add(400, 0);
+
+            //assert
+            Assert.AreEqual(tree[0], 400);
         }
         [TestMethod]
-        public void Set_elem_at_end_Success()
+        public void Set_LastAddedElementOfNonEmptyTree_ElementChanged()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
-            const int SETTING_ELEM = -900;
-            tree[4] = SETTING_ELEM;
-            Assert.AreEqual(tree[4], SETTING_ELEM);
+
+            //act
+            tree[4] = -900;
+
+            //assert
+            Assert.AreEqual(tree[4], -900);
         }
         [TestMethod]
-        public void Set_elem_at_begin_Success()
+        public void Set_InitialAddedElemOfNonEmptyTree_BeginElemChanged()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
-            const int SETTING_ELEM = -1;
-            tree[0] = SETTING_ELEM;
-            Assert.AreEqual(tree[0], SETTING_ELEM);
+
+            //act
+            tree[0] = -1;
+
+            //assert
+            Assert.AreEqual(tree[0], -1);
         }
         [TestMethod]
         [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void Set_elem_at_with_error_index_Error()
+        public void Set_ElemWithNonExitingIndex_Exception()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 30, 20, 10, -1000, 2000 }, Sum);
+
+            //act
             tree[NON_EXISTING_INDEX_IN_TREE] = -1;
         }
         [TestMethod]
-        public void Search_sum_on_range_Success()
+        public void GetValueOnSegment_CorrectRange_SumOfRange()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 10, 1, 20, 2, 2 }, Sum);
-            const int LEFT_BORDER = 0, 
-                RIGHT_BORDER = 4, 
-                RESULT_SUM = 35;
+            const int RESULT_SUM = 35;//10+1+20+2+2
 
-            int sum = tree.Get_value_on_segment(LEFT_BORDER, RIGHT_BORDER);
+            //act
+            int sum = tree.GetValueOnSegment(0, 4);
+
+            //assert
             Assert.AreEqual(sum, RESULT_SUM);
         }
         [TestMethod]
-        public void Search_min_on_range_Success()
+        public void GetValueOnSegment_CorrectRange_MinOfRange()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 10, 1, 20, 2, 2 }, Min);
-            const int LEFT_BORDER = 0,
-                RIGHT_BORDER = 4,
-                RESULT_MIN = 1;
-            int min = tree.Get_value_on_segment(LEFT_BORDER, RIGHT_BORDER);
+            const int RESULT_MIN = 1;
+
+            //act
+            int min = tree.GetValueOnSegment(0, 4);
+
+            //assert
             Assert.AreEqual(min, RESULT_MIN);
         }
         [TestMethod]
-        public void Search_max_on_range_Success()
+        public void GetValueOnSegment_CorrectRange_MaxofRange()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 10, 1, 20, 2, 2 }, Max);
-            const int LEFT_BORDER = 0,
-                RIGHT_BORDER = 4,
-                RESULT_MAX = 20;
+            const int RESULT_MAX = 20;
 
-            int max = tree.Get_value_on_segment(LEFT_BORDER, RIGHT_BORDER);
+            //act
+            int max = tree.GetValueOnSegment(0, 4);
+
+            //assert
             Assert.AreEqual(max, RESULT_MAX);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void Search_sum_on_wrong_range__Error()
+        public void GetValueOnSegment_IncorrectRange_Exception()
         {
+            //arrange
             Tree tree = new Tree(new int[] { -10, -1, -20, -2, -2 }, Sum);
-            const int LEFT_BORDER_MORE_RIGHT = 4,
-                RIGHT_BORDER_LESS_LEFT = 0;
-            tree.Get_value_on_segment(LEFT_BORDER_MORE_RIGHT, RIGHT_BORDER_LESS_LEFT);
+
+            //act
+            tree.GetValueOnSegment(4, 0);
         }
         [TestMethod]
-        public void ToString_Success()
+        public void ToString_NonEmptyTree_ImageTree()
         {
+            //arrange
             Tree tree = new Tree(new int[] { 10, 1, 20, 2, 2 }, Sum);
-            string s = tree.ToString();
             const string RESULT = "35  \n33  2  \n11  22  2    \n10  1  20  2  2        \n";
-            Assert.AreEqual(s,RESULT);
+
+            //act
+            string s = tree.ToString();
+
+            //assert
+            Assert.AreEqual(s, RESULT);
         }
     }
 }

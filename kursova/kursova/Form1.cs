@@ -124,9 +124,9 @@ namespace kursova
         {
             if (sum != null)
             {
-                string s = (sum.Get_value_on_segment(int.Parse(textBox_left.Text) - 1, int.Parse(textBox_right.Text) - 1)).ToString() + "\n";
-                s += (min.Get_value_on_segment(int.Parse(textBox_left.Text) - 1, int.Parse(textBox_right.Text) - 1)).ToString() + "\n";
-                s += (max.Get_value_on_segment(int.Parse(textBox_left.Text) - 1, int.Parse(textBox_right.Text) - 1)).ToString();
+                string s = (sum.GetValueOnSegment(int.Parse(textBox_left.Text) - 1, int.Parse(textBox_right.Text) - 1)).ToString() + "\n";
+                s += (min.GetValueOnSegment(int.Parse(textBox_left.Text) - 1, int.Parse(textBox_right.Text) - 1)).ToString() + "\n";
+                s += (max.GetValueOnSegment(int.Parse(textBox_left.Text) - 1, int.Parse(textBox_right.Text) - 1)).ToString();
                 label_result.Text = s;
             }
             else
